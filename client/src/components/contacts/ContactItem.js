@@ -10,6 +10,7 @@ const ContactItem = ({ contact }) => {
     deleteContact(_id);
     clearCurrent();
   }
+  
   return (
     <div className="card bg-light">
       <h3 className="text-primary text-left">

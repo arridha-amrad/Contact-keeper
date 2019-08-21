@@ -3,6 +3,8 @@ import AlertContext from '../../context/alert/alertContext';
 import AuthContext from '../../context/auth/authContext';
 
 const Register = props => {
+  document.title = "Register";
+
   const alertContext = useContext(AlertContext);
   const authContext = useContext(AuthContext);
 
